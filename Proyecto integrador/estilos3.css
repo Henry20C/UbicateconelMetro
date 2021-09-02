@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  height: 65px;
+  background: rgb(224, 224, 224);
+  color: #fff;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  z-index: -1;
+}
+
+
+.webdesigntuts-workshop {
+  top: 2%;
+	position: fixed;
+	text-align: center;
+	width: 1080px;
+  padding: 2px;
+}
+
+.webdesigntuts-workshop input {
+  width: 405px;
+}
+
+.Logo {
+    position: fixed;
+    left: 0px;
+    bottom: 675px;
+    z-index: 1;
+}
+
+
+.navegacion{
+  width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  z-index: 1;
+}
+
+.navegacion ul{
+  list-style: none;
+  z-index: 1;
+}
+
+.nav li a{
+  background-color: rgb(224, 224, 224);;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 55px;
+  display: block;
+  z-index: 1;
+}
+
+.nav  li {
+  float:left;
+  z-index: 1;
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  z-index: 1;
+}
+
+.nav li:hover > ul{
+  display: block;
+}
+
+body{
+    background-color: white;
+}
+.cuerpo{
+    position: fixed;
+    background-color: transparent;
+    width: 1200px;
+    height: 400px;
+    left: 170px;
+    border: 1px solid transparent;
+    bottom: 150px;
+    z-index: 1;
+}
+.fondo {
+    position: relative;
+    width: 1200px;
+    height: 450px;
+    top: 150px;
+    left: 145px;
+}
+.ruta1{
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 100px;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(-50deg);
+    top: 60px;
+    left: 60px;
+}
+.nombreruta1 {
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 30px;
+}
+.quitumbe {
+    position: relative;
+    background-color: blue;
+    bottom: 60px;
+    left: 25px;
+    border: transparent;
+}
+.quitumbe:hover { 
+    padding: 30px; 
+    background: blue; 
+    color: white; 
+} 
+.ruta2 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;  
+    left: 130px;
+    bottom: 0px;
+    border-radius: 30% 30% 0% 0%;
+    transform: rotate(-70deg);
+}
+  .nombreruta2 {
+      position: relative;
+      background-color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 5px solid red;
+      right: 10px;
+      bottom: 5px;
+}
+.moran {
+    position: relative;
+    background-color: red;
+    height: 20px;
+    width: 110px;
+    bottom: 13px;
+    left: 23px;
+    border: transparent;
+    transform: rotate(18deg);
+
+}
+.moran:hover { 
+    padding: 35px; 
+    background: red; 
+    color: white; 
+} 
+.ruta3 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 160px;  
+    left: 245px;
+    bottom: 75px;
+    transform: rotate(-63deg);
+}
+.nombreruta3 {
+    position: relative;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 5px;
+}
+.solanda {
+    position: relative;
+    background-color: blue;
+    right: 68px;
+    bottom: 35px;
+    border: transparent;
+}
+.solanda:hover { 
+    padding: 30px; 
+    background: blue; 
+    color: white; 
+} 
+.ruta4 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;  
+    left: 317px;
+    bottom: 130px;
+    transform: rotate(-25deg);
+}
+.nombreruta4 {
+    position: relative;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    right: 5px;
+    bottom: 15px;
+}
+.cardenal {
+    position: relative;
+    background-color: red;
+    width: 130px;
+    left: 25px;
+    bottom: 80px;
+    transform: rotate(-25deg);
+    border: transparent;
+}
+.cardenal:hover { 
+    padding: 20px; 
+    background: red; 
+    color: white; 
+} 
+.ruta5 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;  
+    left: 390px;
+    bottom: 180px;
+    transform: rotate(-100deg);
+}
+.nombreruta5 {
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 5px;
+    bottom: 15px;
+}
+.recreo {
+    position: relative;
+    background-color: blue;
+    bottom: 85px;
+    right: 35px;
+    transform: rotate(60deg);
+    border: transparent;
+}
+.recreo:hover { 
+    padding: 30px; 
+    background: blue; 
+    color: white; 
+} 
+.ruta6 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 80px;
+    left: 446px;
+    bottom: 310px;
+    transform: rotate(20deg);
+}
+.nombreruta6 {
+    position: relative;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    right: 10px;
+    bottom: 15px;
+}
+.magdalena {
+    position: relative;
+    background-color: red;
+    bottom: 102px;
+    right: 30px;
+    transform: rotate(-90deg);
+    border: transparent;
+}
+.magdalena:hover { 
+    padding: 20px; 
+    background: red; 
+    color: white; 
+} 
+.ruta7 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;
+    left: 520px;
+    bottom: 410px;
+    transform: rotate(110deg);
+}
+.nombreruta7 {
+    position: relative;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 15px;
+}
+.francisco {
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    bottom: 30px;
+    left: 25px;
+    transform: rotate(190deg);
+    border: transparent;
+}
+.francisco:hover { 
+    padding: 20px; 
+    background: blue; 
+    color: white; 
+} 
+.ruta8 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;
+    left: 606px;
+    bottom: 501px;
+    transform: rotate(-100deg);
+}
+.nombreruta8 {
+    position: relative;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 15px;
+}
+.ruta9 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;
+    left: 690px;
+    bottom: 615px;
+    transform: rotate(-100deg);
+}
+.nombreruta9 {
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    right: 10px;
+    bottom: 15px;
+}
+.almeda {
+    position: relative;
+    background-color: red;
+    width: 100px;
+    bottom: 30px;
+    left: 25px;
+    transform: rotate(15deg);
+    border: transparent;
+}
+.almeda:hover { 
+    padding: 20px; 
+    background: red; 
+    color: white; 
+}
+.ruta10 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 70px;
+    left: 755px;
+    bottom: 685px;
+    transform: rotate(-60deg);
+}
+.nombreruta10 {
+    position: relative;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 15px;
+}
+.ejido {
+    position: relative;
+    background-color: blue;
+    width: 70px;
+    bottom: 27px;
+    right: 75px;
+    transform: rotate(-20deg);
+    border: transparent;
+}
+.ejido:hover { 
+    padding: 20px; 
+    background: blue; 
+    color: white; 
+}
+.ruta11 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 100px;
+    left: 805px;
+    bottom: 884px;
+    transform: rotate(30deg);
+}
+.ruta112 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 80px;
+    left: 850px;
+    bottom: 800px;
+    transform: rotate(-30deg);
+}
+.nombreruta11 {
+    position: relative;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    right: 10px;
+    bottom: 15px;
+}
+.central {
+    position: relative;
+    background-color: red;
+    width: 130px;
+    bottom: 125px;
+    right: 40px;
+    transform: rotate(-80deg);
+    border: transparent;
+}
+.central:hover { 
+    padding: 20px; 
+    background: red; 
+    color: white; 
+}
+.ruta12 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 70px;
+    left: 880px;
+    bottom: 910px;
+    transform: rotate(-20deg);
+}
+.nombreruta12 {
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 15px;
+}
+.pradera {
+    position: relative;
+    background-color: blue;
+    width: 90px;
+    bottom: 25px;
+    right: 93px;
+    transform: rotate(-20deg);
+    border: transparent;
+}
+.pradera:hover { 
+    padding: 20px; 
+    background: blue; 
+    color: white; 
+}
+.ruta13 {
+    position: relative;
+    background-color: red;
+    width: 20px; 
+    height: 70px;
+    left: 925px;
+    bottom: 960px;
+    transform: rotate(-120deg);
+}
+.nombreruta13 {
+    position: relative;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    right: 10px;
+    bottom: 15px;
+}
+.carolina {
+    position: relative;
+    background-color: red;
+    transform: rotate(160deg);
+    bottom: 30px;
+    right: 65px;
+    border: transparent;
+}
+.carolina:hover { 
+    padding: 20px; 
+    background: red; 
+    color: white; 
+}
+.ruta14 {
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 70px;
+    left: 980px;
+    bottom: 1060px;
+    transform: rotate(-120deg);
+}
+.nombreruta14 {
+    position: relative;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    right: 10px;
+    bottom: 15px;
+}
+.iñaquito {
+    position: relative;
+    background-color: blue;
+    transform: rotate(35deg);
+    border: transparent;
+    bottom: 20px;
+    left: 20px;
+} 
+.iñaquito:hover {
+    padding: 30px;
+    background-color: blue;
+    color: white;
+}
+.ruta15 {
+
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 150px;
+    left: 1055px;
+    bottom: 1240px;
+    transform: rotate(-140deg);
+}
+.nombreruta15 {
+    position: relative;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    right: 10px;
+    bottom: 15px;
+}
+.jipijapa {
+    position: relative;
+    background-color: red;
+    transform: rotate(35deg);
+    border: transparent;
+    bottom: 45px;
+    right: 63px;
+    transform: rotate(180deg);
+}
+.jipijapa:hover {
+    padding: 30px;
+    background-color: red;
+    color: white;
+}
+.ruta16 {
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    left: 1100px;
+    bottom: 1400px;
+}
+.labrador {
+    position: relative;
+    background-color: blue;
+    border: transparent;
+    right: 65px;
+}
+.labrador:hover {
+    padding: 30PX;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  height: 65px;
+  background: rgb(224, 224, 224);
+  color: #fff;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  z-index: 2;
+}
+
+
+.webdesigntuts-workshop {
+  top: 2%;
+	position: fixed;
+	text-align: center;
+	width: 1080px;
+  padding: 2px;
+}
+
+.webdesigntuts-workshop input {
+  width: 405px;
+}
+
+.Logo {
+    position: fixed;
+    left: 0px;
+    bottom: 675px;
+    z-index: 2;
+}
+
+
+.navegacion{
+  position: fixed;
+  width: 677px;
+  margin: 20px 300px;
+  background: #fff;
+  z-index: 2;
+}
+
+.navegacion ul{
+  list-style: none;
+  z-index: -1;
+}
+
+.nav li a{
+  background-color: rgb(224, 224, 224);;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 55px;
+  display: block;
+  z-index: 1;
+}
+
+.nav  li {
+  float:left;
+  z-index: 1;
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  z-index: 1;
+}
+
+.nav li:hover > ul{
+  display: block;
+}
+
+.portada {
+  position: absolute;
+  left: 0px;
+  bottom: 185px;
+  z-index: -1;
+}
+
+.directorio {
+    position: relative;
+    left: 900px;
+    bottom: -450px;
+    z-index: -1;
+}
+
+p1 {
+    position: relative;
+    left: 330px;
+    bottom: 20px;
+    z-index: -1;
+}
+
+p2 {
+    position: relative;
+    left: -320px;
+    bottom: -10px;
+    z-index: -1;
+}
+
+p3 {
+    position: absolute;
+    left: 200px;
+    bottom: 20px;
+    z-index: -1;
+}
+
+p4 {
+    position: absolute;
+    left: 250px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+p5 {
+    position: absolute;
+    left: 720px;
+    bottom: -30px;
+    z-index: -1;
+}
+
+p6 {
+  position: absolute;
+  left: 785px;
+  bottom: -100px;
+  z-index: -1;
+}
+
+.titulo{
+  position: relative;
+  left: 0px;
+  bottom: -573px;
+  z-index: -1;
+}
+
+p7 {
+  position: absolute;
+  left: 245px;
+  bottom: -150px;
+  z-index: -1;
+}
+
+p8 {
+  position: absolute;
+  left: 200px;
+  bottom: -175px;
+  z-index: -1;
+}
+
+p9 {
+  position: absolute;
+  left: 250px;
+  bottom: -200px;
+  z-index: -1;
+}
+
+p10 {
+  position: absolute;
+  left: 720px;
+  bottom: -225px;
+  z-index: -1;
+}
+
+p11 {
+  position: absolute;
+  left: 380px;
+  bottom: 290px;
+  z-index: -1;
+}
+
+p12 {
+  position: absolute;
+  left: 700px;
+  bottom: 250px;
+  z-index: -1;
+}
+
+#rectangulo {
+  position: relative;
+  margin: 800px 0px;
+  left:0px;
+  background: #124183;
+  width: 100%;
+  height: 750px;
+  z-index: -1;
+}
+
+p13 {
+  position: absolute;
+  left: 570px;
+  bottom: -820px;
+  z-index: -1;
+}
+
+
+.video {
+  position: relative;
+  left: 200px;
+  bottom: 1400px;
+  z-index: 1;
+}
+
+#rectangulo1 {
+  position: absolute;
+  margin: 800px 0px;
+  left:0px;
+  background: #223e77;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+
+p14 {
+  position: absolute;
+  left: 570px;
+  bottom: -1555px;
+  z-index: -1;
+}
+
+.citacion {
+  position: absolute;
+  left: 400px;
+  bottom: -2500px;
+  z-index: -1;
+}
+
+.logos1 {
+  position: absolute;
+  left: 900px;
+  bottom: -3700px;
+  z-index: -1;
+}
+
+.logos2 {
+  position: absolute;
+  left: 500px;
+  bottom: -3810px;
+  z-index: -1;
+}
+
+.logos3 {
+  position: absolute;
+  left: 260px;
+  bottom: -3640px;
+  z-index: -1;
+}
+
+.inicio {
+  position: absolute;
+  left: 285px;
+  bottom: -3685px;
+  z-index: -1;
+}
+
+.inicio1 {
+  position: absolute;
+  left: 285px;
+  bottom: -3760px;
+  z-index: -1;
+}
+
+.inicio2 {
+  position: absolute;
+  left: 285px;
+  bottom: -3720px;
+  z-index: -1;
+}
